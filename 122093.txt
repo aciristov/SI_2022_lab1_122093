@@ -37,3 +37,4 @@ $ git commit -m "Resolving conflicts in file"
 $ git status
 $ git add 122093.txt
 $ git commit -m "Add docs"
+$ git push
