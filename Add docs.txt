@@ -1,0 +1,37 @@
+$ git clone https://github.com/aciristov/SI_2022_lab1_122093.git
+$ cd SI_2022_lab1_122093/
+$ git checkout -b master
+$ git branch
+$ git status
+$ git add .
+$ git commit -m "Add 5 items to the shopping list"
+$ git status
+$ git add .
+$ git commit -m "Add quantities to the items"
+$ git branch branch1
+$ git branch branch2
+$ git push -u origin head
+$ git branch
+$ git checkout branch1
+$ git status
+$ git add .
+$ git commit -m "Change quantity of item #5"
+$ git checkout master
+$ git status
+$ git add .
+$ git commit -m "Change quantity of item #2"
+$ git checkout branch2
+$ git status
+$ git add .
+$ git commit -m "Modify item #4"
+$ git add .
+$ git commit -m "Modify item #4 and add item #6"
+$ git status
+$ git checkout master
+$ git status
+$ git merge branch1
+$ git merge branch2
+$ git status
+$ git add .
+$ git commit -m "Resolving conflicts in file"
+$ git status
